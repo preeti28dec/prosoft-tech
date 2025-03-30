@@ -4,6 +4,7 @@ import { IoMdArrowDropdown } from "react-icons/io";
 import { Link } from "react-router-dom";
 import ServiceCard from "./../serviceCard";
 import Technologies from "./../technologies";
+import logoProsft from "../../image/full.svg";
 
 const Header = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -31,7 +32,10 @@ const Header = () => {
         </button>
 
         {/* Logo */}
-        <div className="text-2xl font-bold text-purple-800">ProSoft Tech</div>
+        {/* <img src={logoProsft} alt="Prosoft Tech Logo" width={200} /> */}
+
+
+        <div className="text-2xl font-bold text-[#15b874]">ProSoft Tech</div>
 
         {/* Navigation (Hidden on Small Screens) */}
         <nav className="hidden md:flex items-center space-x-6">
@@ -40,7 +44,7 @@ const Header = () => {
               activeSection === "home"
                 ? "text-green-500 font-bold"
                 : "text-gray-700"
-            } hover:text-green-500`}
+            } hover:text-green-500 text-lg font-semibold`}
             to="/"
             onClick={() => handleNavClick("home")}
           >
@@ -52,82 +56,91 @@ const Header = () => {
               activeSection === "about"
                 ? "text-green-500 font-bold"
                 : "text-gray-700"
-            } hover:text-green-500`}
+            } hover:text-green-500 text-lg font-semibold`}
             to="/about"
             onClick={() => handleNavClick("about")}
           >
             About Us
           </Link>
 
-{/* Services Dropdown */}
-<div className="relative group">
-  <button
-    className={`flex items-center ${
-      activeSection === "services"
-        ? "text-green-500 font-bold"
-        : "text-gray-700"
-    } hover:text-green-500`}
-    onClick={() => {
-      if (activeSection === "services") {
-        setActiveSection(""); 
-        setIsServicesOpen(false);
-      } else {
-        setActiveSection("services");
-        setIsServicesOpen(true);
-        setIsTechnologiesOpen(false);
-      }
-    }}
-  >
-    Services <IoMdArrowDropdown className="ml-1 text-2xl" />
-  </button>
-  {isServicesOpen && activeSection === "services" && (
-    <div className="absolute group-hover:block z-10">
-      <div className="fixed w-full left-0 bg-gray mt-4 py-3">
-        <ServiceCard />
-      </div>
-    </div>
-  )}
-</div>
+          {/* Services Dropdown */}
+          <div className="relative group">
+            <button
+              className={`flex items-center ${
+                activeSection === "services"
+                  ? "text-green-500 font-bold"
+                  : "text-gray-700"
+              } hover:text-green-500 text-lg font-semibold`}
+              onClick={() => {
+                if (activeSection === "services") {
+                  setActiveSection("");
+                  setIsServicesOpen(false);
+                } else {
+                  setActiveSection("services");
+                  setIsServicesOpen(true);
+                  setIsTechnologiesOpen(false);
+                }
+              }}
+            >
+              Services <IoMdArrowDropdown className="ml-1 text-2xl" />
+            </button>
+            {isServicesOpen && activeSection === "services" && (
+              <div className="absolute group-hover:block z-10">
+                <div className="fixed w-full left-0 bg-gray mt-4 py-3">
+                  <ServiceCard />
+                </div>
+              </div>
+            )}
+          </div>
 
-{/* Technologies Dropdown */}
-<div className="relative group">
-  <button
-    className={`flex items-center ${
-      activeSection === "technologies"
-        ? "text-green-500 font-bold"
-        : "text-gray-700"
-    } hover:text-green-500`}
-    onClick={() => {
-      if (activeSection === "technologies") {
-        setActiveSection(""); // Close if clicking again
-        setIsTechnologiesOpen(false);
-      } else {
-        setActiveSection("technologies");
-        setIsTechnologiesOpen(true);
-        setIsServicesOpen(false); // Close Services
-      }
-    }}
-  >
-    Technologies <IoMdArrowDropdown className="ml-1 text-2xl" />
-  </button>
-  {isTechnologiesOpen && activeSection === "technologies" && (
-    <div className="absolute group-hover:block z-10">
-      <div className="fixed w-full left-0 bg-gray mt-4 py-3">
-        <Technologies />
-      </div>
-    </div>
-  )}
-</div>
+          {/* Technologies Dropdown */}
+          <div className="relative group">
+            <button
+              className={`flex items-center ${
+                activeSection === "technologies"
+                  ? "text-green-500 font-bold"
+                  : "text-gray-700"
+              } hover:text-green-500 text-lg font-semibold`}
+              onClick={() => {
+                if (activeSection === "technologies") {
+                  setActiveSection(""); // Close if clicking again
+                  setIsTechnologiesOpen(false);
+                } else {
+                  setActiveSection("technologies");
+                  setIsTechnologiesOpen(true);
+                  setIsServicesOpen(false); // Close Services
+                }
+              }}
+            >
+              Technologies <IoMdArrowDropdown className="ml-1 text-2xl" />
+            </button>
+            {isTechnologiesOpen && activeSection === "technologies" && (
+              <div className="absolute group-hover:block z-10">
+                <div className="fixed w-full left-0 bg-gray mt-4 py-3">
+                  <Technologies />
+                </div>
+              </div>
+            )}
+          </div>
 
-          <a href="#" className="text-gray-700 hover:text-green-500">
+          <Link
+            className={`${
+              activeSection === "careers"
+                ? "text-green-500 font-bold"
+                : "text-gray-700"
+            } hover:text-green-500 text-lg font-semibold`}
+            to="/careers"
+            onClick={() => handleNavClick("careers")}
+          >
             Careers
-          </a>
+          </Link>
         </nav>
 
         {/* Contact Button */}
-        <button className="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600 hidden md:block">
+        {/* <button className="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600 hidden md:block text-lg font-semibold">
           LET'S TALK
-        </button>
+        </button> */}
+        <div>&nbsp;</div>
       </header>
 
       {/* Sidebar (for small screens) */}
@@ -146,17 +159,34 @@ const Header = () => {
 
         {/* Sidebar Navigation */}
         <nav className="flex flex-col space-y-4">
-          <a href="#" className="text-gray-700 hover:text-green-500">
+        <Link
+            className={`${
+              activeSection === "home"
+                ? "text-green-500 font-bold"
+                : "text-gray-700"
+            } hover:text-green-500 text-lg font-semibold`}
+            to="/"
+            onClick={() => handleNavClick("home")}
+          >
             Home
-          </a>
-          <a href="#" className="text-gray-700 hover:text-green-500">
+          </Link>
+
+          <Link
+            className={`${
+              activeSection === "about"
+                ? "text-green-500 font-bold"
+                : "text-gray-700"
+            } hover:text-green-500 text-lg font-semibold`}
+            to="/about"
+            onClick={() => handleNavClick("about")}
+          >
             About Us
-          </a>
+          </Link>
 
           {/* Services Dropdown */}
           <div>
             <button
-              className="flex items-center justify-between w-full text-gray-700 hover:text-green-500"
+              className="flex items-center justify-between w-full text-gray-700 hover:text-green-500 text-lg font-semibold"
               onClick={() => setIsServicesOpen(!isServicesOpen)}
             >
               Services <IoMdArrowDropdown className=" text-2xl" />
@@ -167,7 +197,7 @@ const Header = () => {
           {/* Technologies Dropdown */}
           <div>
             <button
-              className="flex items-center justify-between w-full text-gray-700 hover:text-green-500"
+              className="flex items-center justify-between w-full text-gray-700 hover:text-green-500 text-lg font-semibold"
               onClick={() => setIsTechnologiesOpen(!isTechnologiesOpen)}
             >
               Technologies <IoMdArrowDropdown className="text-2xl" />
@@ -175,9 +205,17 @@ const Header = () => {
             {isTechnologiesOpen && <Technologies />}
           </div>
 
-          <a href="#" className="text-gray-700 hover:text-green-500">
+          <Link
+            className={`${
+              activeSection === "careers"
+                ? "text-green-500 font-bold"
+                : "text-gray-700"
+            } hover:text-green-500 text-lg font-semibold`}
+            to="/careers"
+            onClick={() => handleNavClick("careers")}
+          >
             Careers
-          </a>
+          </Link>
         </nav>
       </div>
 

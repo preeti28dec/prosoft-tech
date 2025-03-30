@@ -7,6 +7,7 @@ import About from './components/about/index';
 import GetInTouch from './components/common-file/get-in-touch';
 import Footer from './components/common-file/footer';
 import Header from './components/common-file/header';
+import Careers from './components/careers/index';
 
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About/>} />
+        <Route path="/careers" element={<Careers/>} />
       </Routes>
       <GetInTouch/>
       <Footer/>

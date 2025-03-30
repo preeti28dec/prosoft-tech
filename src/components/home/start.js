@@ -3,7 +3,7 @@ import HomeBanner from '../../image/home-banner.webp';
 
 function StartPage() {
   return (
-    <div className="bg-gray-100 py-10 md:py-20">
+    <div className="bg-[#eaeff0] py-10 md:py-20">
       <div className="flex flex-col md:flex-row items-center justify-between px-4 md:px-8">
         {/* Left Section */}
         <div className="text-center md:text-left mb-8 md:mb-0 md:w-1/2 lg:w-6/12">

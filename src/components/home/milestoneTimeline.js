@@ -120,7 +120,7 @@ const MilestoneTimeline = () => {
   const currentSection = timelineSections[currentSectionIndex];
 
   return (
-    <div className="bg-gray-100 py-20">
+    <div className="bg-[#eaeff0] py-20">
       <div className="container mx-auto px-4">
         <div className=" mb-8">
           <div className="flex items-center mb-3">

@@ -3,7 +3,7 @@ import mockupImage from "../../image/get-in-touch.png";
 
 const GetInTouch = () => {
   return (
-    <div className="bg-gray-100 py-12 md:py-20">
+    <div className="bg-[#eaeff0] py-12 md:py-20">
       <div className="mx-3 px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-8 items-center">
         <img
           src={mockupImage}

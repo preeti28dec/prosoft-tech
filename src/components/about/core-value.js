@@ -39,19 +39,19 @@ const CoreValues = () => {
   ];
 
   return (
-    <div className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12 p-4 md:p-8">
+    <div className="bg-[#eaeff0] flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12 p-4 md:p-8">
       {/* Left Section - Image */}
       <div className="w-full md:w-1/2">
         <img
           src={CoreValuesImage}
           alt="Core Values Illustration"
-          className="w-full h-auto rounded-lg shadow-md"
+          className="w-full h-auto rounded-lg "
         />
       </div>
 
       {/* Right Section - Core Values Text */}
-      <div className="w-full md:w-1/2">
-        {/* Title Section */}
+      <div className="w-full md:w-1/2 max-h-[670px] overflow-y-auto">
+      {/* Title Section */}
         <div className="mb-6 md:mb-10 text-left">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800">
             Core Values
