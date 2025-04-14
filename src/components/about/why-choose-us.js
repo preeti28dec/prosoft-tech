@@ -92,7 +92,7 @@ const WhyChooseUs = () => {
             >
               <div>
                 <div className="flex justify-between mb-4 text-gray-400">
-                <h3 className={`text-4xl font-bold ${reason.textColor} mb-2`}>
+                <h3 className={`sm:text-4xl font-bold ${reason.textColor} mb-2`}>
                   {reason.title}
                 </h3>
                 <div>

@@ -22,7 +22,7 @@ const Header = () => {
   return (
     <>
       {/* Header */}
-      <header className="bg-white shadow-md py-4 px-6 flex items-center justify-between">
+      <header className="bg-white shadow-md py-4 px-6 flex items-center justify-between fixed top-0 w-full z-10">
         {/* Menu Button for Small Screens */}
         <button
           className="text-gray-700 text-2xl md:hidden"
