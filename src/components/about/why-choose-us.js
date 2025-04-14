@@ -11,7 +11,7 @@ const WhyChooseUs = () => {
   const reasons = [
     {
       title: 'Proven Expertise and Experience',
-      description:'We have been blessed with the best of the talent in the industry. At CS Soft Solutions, get business solutions from experts who have a thorough experience and exposure of diverse sectors in the IT industry. We understand and ensure every customer of ours is served with the best of solutions without any fall.',
+      description:'We have been blessed with the best of the talent in the industry. At ProSoft Technologies, get business solutions from experts who have a thorough experience and exposure of diverse sectors in the IT industry. We understand and ensure every customer of ours is served with the best of solutions without any fall.',
       icon: TbUserStar,
       borderColor: 'border-gray-100',
       textColor: 'text-gray-800',

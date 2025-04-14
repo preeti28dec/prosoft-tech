@@ -10,13 +10,12 @@ function StartAbout() {
           <h1 className="text-3xl font-semibold text-gray-800 mb-4 md:text-4xl lg:text-6xl">
             Who We Are?
           </h1>
-          <div className="mx-2 font-semibold">
-            CS Soft Solutions Pvt. Ltd is a growth-driven IT solutions provider,
-            focusing on bringing digital transformations for businesses at every
-            scale. We are first movers who believe in adding proficiency and
-            innovation in every solution we offer. With more than a decade of
-            being a IT leader, we thrive to build solutions that bring results
-            and impact.
+          <div className="w-[85%]">
+            We are an award-winning provider of management and IT solutions,
+            delivering high-value services across complex projects. With full
+            life cycle capabilities and proven methodologies, we help clients
+            achieve goals on time and within budget—offering world-class
+            expertise at competitive rates.
           </div>
         </div>
 

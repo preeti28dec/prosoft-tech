@@ -46,7 +46,7 @@ function TextContent() {
         Enterprises
       </h1>
       <p className="text-gray-700 leading-relaxed">
-        CS Soft Solutions is a versatile IT services provider that specialize in
+        ProSoft Technologies is a versatile IT services provider that specialize in
         offering cutting edge digital transformation as per your business
         requirements. We offer tailored growth solutions to businesses of all
         sizes, from startups to enterprises. By leveraging our expertise across
