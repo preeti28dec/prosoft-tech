@@ -1,5 +1,6 @@
 import React from "react";
-import AboutBanner from "../../image/about-banner.webp";
+//import AboutBanner from "../../image/about-banner.webp";
+import AboutBanner from "../../image/about_banner.svg";
 
 function StartAbout() {
   return (

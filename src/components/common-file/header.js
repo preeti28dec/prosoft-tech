@@ -4,7 +4,7 @@ import { IoMdArrowDropdown } from "react-icons/io";
 import { Link } from "react-router-dom";
 import ServiceCard from "./../serviceCard";
 import Technologies from "./../technologies";
-import logoProsft from "../../image/prosoft_logo.jpg";
+import logoProsft from "../../image/prosoft_new.svg";
 
 const Header = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -32,7 +32,7 @@ const Header = () => {
         </button>
 
         {/* Logo */}
-        <img src={logoProsft} alt="Prosoft Tech Logo" className="h-20" width={250}/>
+        <Link to="/"  ><img src={logoProsft} alt="Prosoft Tech Logo"   className="h-[9vh] w-[120px] object-cover" /></Link>
 
 
         {/* <div className="text-2xl font-bold text-[#15b874]">ProSoft Tech</div> */}

@@ -1,5 +1,5 @@
 import React from "react";
-import CareersBanner from "../../image/careers-start.webp";
+import CareersBanner from "../../image/workspace.svg";
 import { useState, useEffect } from "react";
 
 function StartCareers() {

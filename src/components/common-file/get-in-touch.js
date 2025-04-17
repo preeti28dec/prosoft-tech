@@ -1,5 +1,6 @@
 import React from "react";
-import mockupImage from "../../image/get-in-touch.png";
+//import mockupImage from "../../image/get-in-touch.png";
+import mockupImage from "../../image/contact_us.svg";
 
 const GetInTouch = () => {
   return (

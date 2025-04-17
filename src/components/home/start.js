@@ -1,5 +1,6 @@
 import React from "react";
-import HomeBanner from "../../image/home-banner.webp";
+//import HomeBanner from "../../image/home-banner.webp";
+import HomeBanner from "../../image/programing.svg";
 
 function StartPage() {
   return (

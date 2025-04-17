@@ -1,5 +1,6 @@
 import React from "react";
-import ourStory from "../../image/our-story.png";
+//import ourStory from "../../image/our-story.png";
+import ourStory from "../../image/our_story.svg";
 
 function OurStorySection() {
   return (
