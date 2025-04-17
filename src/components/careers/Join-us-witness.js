@@ -31,7 +31,7 @@ const JoinUsToWitness = () => {
   ];
 
   return (
-    <div className="bg-[#eaeff0] flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12 p-4 md:p-8 ">
+    <div className="bg-[#ececff] flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12 p-4 md:p-8 ">
       {/* Left Section - Image */}
       <div className="w-full md:w-1/2">
         <img

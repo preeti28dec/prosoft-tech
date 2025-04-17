@@ -3,7 +3,7 @@ import mockupImage from "../../image/get-in-touch.png";
 
 const GetInTouch = () => {
   return (
-    <div className="bg-[#eaeff0] py-12 md:py-20">
+    <div className="bg-[#ececff] py-12 md:py-20">
       <div className="mx-3 px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-8 items-center">
         <img
           src={mockupImage}
@@ -15,16 +15,14 @@ const GetInTouch = () => {
           <div className="text-center md:text-left mb-8">
             <div className="flex items-center mb-3">
               <div>
-                <h6 className="pr-3 text-center font-semibold">GET IN TOUCH</h6>
+                <h6 className="pr-3 text-center font-semibold">CONNECT WITH US</h6>
               </div>
               <div className="border-t border-stone-950 flex-[0.2_1]"></div>
             </div>
             <div className="mt-2 text-4xl font-semibold">
-              Your Vision, <span className="text-green-500">Our Expertise</span>
+            Your goals, our expertise.<span className="text-[#0f0987]"> Begin your digital</span> transformation now.
             </div>
-            <div className="text-4xl font-semibold">
-              Start Your Digital Journey Today
-            </div>
+           
           </div>
 
           <form className="grid gap-y-6 sm:grid-cols-2 sm:gap-x-6">
@@ -102,7 +100,7 @@ const GetInTouch = () => {
                 type="submit"
                 className="w-full px-6 py-3 text-white bg-indigo-600 hover:bg-indigo-700 rounded-md shadow-sm text-base font-medium focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
               >
-                SUBMIT MESSAGE
+                SUBMIT 
               </button>
             </div>
           </form>

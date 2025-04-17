@@ -3,8 +3,8 @@ import CareersBanner from "../../image/careers-start.webp";
 import { useState, useEffect } from "react";
 
 function StartCareers() {
-    const words = ["Growth-Driven.", "Winner.", "Passionate.","Innovator.","Learner."];
-    const [wordIndex, setWordIndex] = useState(0);
+  const words = ["Growth-Driven.", "Winner.", "Passionate.","Innovator.","Learner."];
+  const [wordIndex, setWordIndex] = useState(0);
   const [text, setText] = useState("");
   const [charIndex, setCharIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -39,16 +39,15 @@ function StartCareers() {
   }, [charIndex, isDeleting, wordIndex]);
 
   return (
-    <div className="bg-[#eaeff0] py-10 ">
+    <div className="bg-[#ececff] py-10 md:py-20 mt-16">
       <div className="flex flex-col md:flex-row items-center justify-between px-4 md:px-8">
         {/* Left Section */}
         <div className="text-center md:text-left mb-8 md:mb-0 md:w-1/2 lg:w-6/12">
           <h1 className="text-3xl font-semibold text-gray-800 mb-4 md:text-4xl lg:text-6xl">
-          Join Us If You Are Or Wish To Be A <span className="text-green-500">{text}</span>
+          Join Us on a Journey of Continuous  <span className="text-[#0f0987]">{text}</span>
           </h1>
           <div className="mx-2 font-semibold">
-          We provide a space for everyone to grow and shape their own success journey.
-          </div>
+          We empower individuals to grow and define their own path to success.</div>
         </div>
 
         {/* Right Section */}

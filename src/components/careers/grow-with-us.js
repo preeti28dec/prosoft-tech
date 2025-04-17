@@ -6,36 +6,32 @@ import Celebrate from "../../image/celebrate.png";
 const GrowWithUs = () => {
   const reasons = [
     {
-      title: "Celebrate Together, Criticize Privately",
-      description:
-        "We believe in fostering a positive and supportive work environment where achievements are celebrated as a team, and constructive feedback is given with respect and discretion.",
+      title: "Celebrate as a Team, Address Concerns Privately",
+      description:"We strive to create a collaborative and supportive work culture where success is shared, and feedback is offered respectfully and privately to foster growth.",
       icon: Celebrate,
       borderColor: "border-gray-100",
       textColor: "text-gray-800",
       color: "bg-[#ffede4]",
     },
     {
-      title: "Become a Better Version of Yourself Every Day",
-      description:
-        "We encourage continuous learning, self-improvement, and personal growth, ensuring you evolve both professionally and personally.",
+      title: "Strive for Progress, Every Day",
+      description:"We foster a culture of continuous learning and self-development, empowering you to grow both in your career and personal life.",
       icon: Mirror,
       borderColor: "border-gray-100",
       textColor: "text-gray-800",
       color: "bg-[#dffff0]",
     },
     {
-      title: "Take Ownership, Drive Excellence",
-      description:
-        "We believe in accountability and delivering our best in everything we do.",
+      title: "Embrace Responsibility, Achieve Excellence",
+      description:"We value accountability and are committed to delivering outstanding results in every task we undertake.",
       icon: AllStar,
       borderColor: "border-gray-100",
       textColor: "text-gray-800",
       color: "bg-[#e2ebff]",
     },
     {
-      title: "Respect, Collaborate and Succeed",
-      description:
-        "Mutual respect and teamwork drive our success, fostering a supportive and innovative work culture.",
+      title: "Honor, Collaborate, and Achieve",
+      description:"We believe that respect and teamwork are key to our success, creating an environment where innovation and support thrive.",
       icon: Trophy,
       borderColor: "border-gray-100",
       textColor: "text-gray-800",
@@ -50,15 +46,15 @@ const GrowWithUs = () => {
         <div className="flex items-center mb-3 justify-center ">
           <div className="border-t border-stone-950 flex-[0.1_1] mx-4"></div>
           <div className="">
-            <h6 className="pr-3 text-center font-semibold text-lg tracking-[0.3em]">
-              GROW WITH US
+            <h6 className="pr-3 text-center font-semibold text-lg tracking-[0.2em]">
+            Thrive With Us
             </h6>
           </div>
           <div className="border-t border-stone-950 flex-[0.1_1]"></div>
         </div>
         <div className="text-center mb-8 md:mb-12">
           <h2 className="text-3xl md:text-3xl lg:text-4xl font-semibold text-gray-800">
-            Our Work Ethics
+          How We Work
           </h2>
         </div>
 
@@ -72,12 +68,12 @@ const GrowWithUs = () => {
               <div>
                 <div className="flex justify-between mb-4 text-gray-400 flex-wrap">
                   <h3
-                    className={`text-4xl font-semibold ${reason.textColor} mb-2 w-80`}
+                    className={`text-3xl font-semibold ${reason.textColor} mb-2 `}
                   >
                     {reason.title}
                   </h3>
                   <div className=" ">
-                    <img src={reason.icon} alt="icon" className="w-24" />
+                    {/* <img src={reason.icon} alt="icon" className="w-24" /> */}
                   </div>
                 </div>
                 <div className="text-sm md:text-base">{reason.description}</div>

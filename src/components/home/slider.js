@@ -15,7 +15,7 @@ const certifications = [
   { name: 'Microsoft Gold Certified', icon: <FaMicrosoft className="h-16 md:h-20 w-auto text-blue-500" /> },
   { name: 'Adobe', icon: <SiAdobe className="h-16 md:h-20 w-auto text-red-600" /> },
   { name: 'Play Store', icon: <FaPlaystation className="h-16 md:h-20 w-auto text-blue-600" /> },
-  { name: 'GDPR Certified', icon: <MdCheckCircleOutline className="h-16 md:h-20 w-auto text-green-500" /> },
+  { name: 'GDPR Certified', icon: <MdCheckCircleOutline className="h-16 md:h-20 w-auto text-[#0f0987]" /> },
   { name: 'Quality Management', icon: <MdCheckCircleOutline className="h-16 md:h-20 w-auto text-blue-700" /> },
 ];
 
@@ -90,7 +90,7 @@ const Slider = () => {
                 <div
                   className={`text-sm font-medium py-1 px-3 rounded-full mt-2 relative overflow-hidden`}
                 >
-                <button className="relative overflow-hidden border-2 border-green-500 text-green-500 px-5 py-2.5 text-sm font-medium rounded-lg transition-all duration-300 ease-in-out hover:text-white 
+                <button className="relative overflow-hidden border-2 border-green-500 text-[#0f0987] px-5 py-2.5 text-sm font-medium rounded-lg transition-all duration-300 ease-in-out hover:text-white 
   before:content-[''] before:absolute before:top-0 before:left-0 before:w-0 before:h-full before:bg-green-500 before:transition-all before:duration-[1000ms] hover:before:w-full before:z-0">
   <span className="relative z-10">{cert.name}</span>
 </button>
@@ -106,13 +106,13 @@ const Slider = () => {
             <>
               <button
                 onClick={prevSlide}
-                className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-70 hover:bg-opacity-90 text-gray-600 rounded-full p-2 shadow-md focus:outline-none focus:ring-2 focus:ring-green-500 hover:bg-green-200 hover:text-green-700 transition duration-200"
+                className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-70 hover:bg-opacity-90 text-gray-600 rounded-full p-2 shadow-md focus:outline-none focus:ring-2 focus:ring-green-500 hover:bg-green-200 hover:text-[#0f0987] transition duration-200"
               >
                 <FontAwesomeIcon icon={faChevronLeft} />
               </button>
               <button
                 onClick={nextSlide}
-                className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-70 hover:bg-opacity-90 text-gray-600 rounded-full p-2 shadow-md focus:outline-none focus:ring-2 focus:ring-green-500 hover:bg-green-200 hover:text-green-700 transition duration-200"
+                className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-70 hover:bg-opacity-90 text-gray-600 rounded-full p-2 shadow-md focus:outline-none focus:ring-2 focus:ring-green-500 hover:bg-green-200 hover:text-[#0f0987] transition duration-200"
               >
                 <FontAwesomeIcon icon={faChevronRight} />
               </button>

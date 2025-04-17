@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 
 const services = [
-  { id: 1, title: "AI Consulting Services", icon: "🤖" },
+  // { id: 1, title: "AI Consulting Services", icon: "🤖" },
   { id: 2, title: "App Development Services", icon: "📱" },
-  { id: 3, title: "Demand Generation", icon: "💡" },
-  { id: 4, title: "DevOps Engineering Services", icon: "⚙️" },
-  { id: 5, title: "Digital Marketing Services", icon: "📢" },
-  { id: 6, title: "Ecommerce Development Services", icon: "🛒" },
+  // { id: 3, title: "Demand Generation", icon: "💡" },
+  // { id: 4, title: "DevOps Engineering Services", icon: "⚙️" },
+  // { id: 5, title: "Digital Marketing Services", icon: "📢" },
+  // { id: 6, title: "Ecommerce Development Services", icon: "🛒" },
   { id: 7, title: "Product Development Services", icon: "📦" },
   { id: 8, title: "Software Legacy Modernization", icon: "💻" },
   { id: 9, title: "Web Development Services", icon: "🌐" },
@@ -19,7 +19,7 @@ const ServiceCard = () => {
     <div className="bg-white mx-auto px-6 py-3 border border-gray-200 shadow-lg rounded-lg w-full">
       <h2 className="text-3xl font-bold text-center mb-6">Our Services</h2>
       
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
         {services.map((service) => (
           <div
             key={service.id}

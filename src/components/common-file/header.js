@@ -4,7 +4,7 @@ import { IoMdArrowDropdown } from "react-icons/io";
 import { Link } from "react-router-dom";
 import ServiceCard from "./../serviceCard";
 import Technologies from "./../technologies";
-import logoProsft from "../../image/full.svg";
+import logoProsft from "../../image/prosoft_logo.jpg";
 
 const Header = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -22,7 +22,7 @@ const Header = () => {
   return (
     <>
       {/* Header */}
-      <header className="bg-white shadow-md py-4 px-6 flex items-center justify-between fixed top-0 w-full z-10">
+      <header className="bg-white shadow-md px-4 py-1 flex items-center justify-between fixed top-0 w-full z-10">
         {/* Menu Button for Small Screens */}
         <button
           className="text-gray-700 text-2xl md:hidden"
@@ -32,19 +32,19 @@ const Header = () => {
         </button>
 
         {/* Logo */}
-        {/* <img src={logoProsft} alt="Prosoft Tech Logo" width={200} /> */}
+        <img src={logoProsft} alt="Prosoft Tech Logo" className="h-20" width={250}/>
 
 
-        <div className="text-2xl font-bold text-[#15b874]">ProSoft Tech</div>
+        {/* <div className="text-2xl font-bold text-[#15b874]">ProSoft Tech</div> */}
 
         {/* Navigation (Hidden on Small Screens) */}
         <nav className="hidden md:flex items-center space-x-6">
           <Link
             className={`${
               activeSection === "home"
-                ? "text-green-500 font-bold"
+                ? "text-[#0f0987] font-bold"
                 : "text-gray-700"
-            } hover:text-green-500 text-lg font-semibold`}
+            } hover:text-[#0f0987] text-lg font-semibold`}
             to="/"
             onClick={() => handleNavClick("home")}
           >
@@ -54,9 +54,9 @@ const Header = () => {
           <Link
             className={`${
               activeSection === "about"
-                ? "text-green-500 font-bold"
+                ? "text-[#0f0987] font-bold"
                 : "text-gray-700"
-            } hover:text-green-500 text-lg font-semibold`}
+            } hover:text-[#0f0987] text-lg font-semibold`}
             to="/about"
             onClick={() => handleNavClick("about")}
           >
@@ -68,9 +68,9 @@ const Header = () => {
             <button
               className={`flex items-center ${
                 activeSection === "services"
-                  ? "text-green-500 font-bold"
+                  ? "text-[#0f0987] font-bold"
                   : "text-gray-700"
-              } hover:text-green-500 text-lg font-semibold`}
+              } hover:text-[#0f0987] text-lg font-semibold`}
               onClick={() => {
                 if (activeSection === "services") {
                   setActiveSection("");
@@ -98,9 +98,9 @@ const Header = () => {
             <button
               className={`flex items-center ${
                 activeSection === "technologies"
-                  ? "text-green-500 font-bold"
+                  ? "text-[#0f0987] font-bold"
                   : "text-gray-700"
-              } hover:text-green-500 text-lg font-semibold`}
+              } hover:text-[#0f0987] text-lg font-semibold`}
               onClick={() => {
                 if (activeSection === "technologies") {
                   setActiveSection(""); // Close if clicking again
@@ -126,9 +126,9 @@ const Header = () => {
           <Link
             className={`${
               activeSection === "careers"
-                ? "text-green-500 font-bold"
+                ? "text-[#0f0987] font-bold"
                 : "text-gray-700"
-            } hover:text-green-500 text-lg font-semibold`}
+            } hover:text-[#0f0987] text-lg font-semibold`}
             to="/careers"
             onClick={() => handleNavClick("careers")}
           >
@@ -162,9 +162,9 @@ const Header = () => {
         <Link
             className={`${
               activeSection === "home"
-                ? "text-green-500 font-bold"
+                ? "text-[#0f0987] font-bold"
                 : "text-gray-700"
-            } hover:text-green-500 text-lg font-semibold`}
+            } hover:text-[#0f0987] text-lg font-semibold`}
             to="/"
             onClick={() => handleNavClick("home")}
           >
@@ -174,9 +174,9 @@ const Header = () => {
           <Link
             className={`${
               activeSection === "about"
-                ? "text-green-500 font-bold"
+                ? "text-[#0f0987] font-bold"
                 : "text-gray-700"
-            } hover:text-green-500 text-lg font-semibold`}
+            } hover:text-[#0f0987] text-lg font-semibold`}
             to="/about"
             onClick={() => handleNavClick("about")}
           >
@@ -186,7 +186,7 @@ const Header = () => {
           {/* Services Dropdown */}
           <div>
             <button
-              className="flex items-center justify-between w-full text-gray-700 hover:text-green-500 text-lg font-semibold"
+              className="flex items-center justify-between w-full text-gray-700 hover:text-[#0f0987] text-lg font-semibold"
               onClick={() => setIsServicesOpen(!isServicesOpen)}
             >
               Services <IoMdArrowDropdown className=" text-2xl" />
@@ -197,7 +197,7 @@ const Header = () => {
           {/* Technologies Dropdown */}
           <div>
             <button
-              className="flex items-center justify-between w-full text-gray-700 hover:text-green-500 text-lg font-semibold"
+              className="flex items-center justify-between w-full text-gray-700 hover:text-[#0f0987] text-lg font-semibold"
               onClick={() => setIsTechnologiesOpen(!isTechnologiesOpen)}
             >
               Technologies <IoMdArrowDropdown className="text-2xl" />
@@ -208,9 +208,9 @@ const Header = () => {
           <Link
             className={`${
               activeSection === "careers"
-                ? "text-green-500 font-bold"
+                ? "text-[#0f0987] font-bold"
                 : "text-gray-700"
-            } hover:text-green-500 text-lg font-semibold`}
+            } hover:text-[#0f0987] text-lg font-semibold`}
             to="/careers"
             onClick={() => handleNavClick("careers")}
           >

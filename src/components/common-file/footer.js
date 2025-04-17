@@ -98,7 +98,7 @@ const Footer = () => {
         ))}
       </div> */}
       <div className="bg-indigo-600  text-center px-4 mt-6 py-4 border-t border-gray-200  text-white">
-        © 2021 - {new Date().getFullYear()} ProSoft Technologies
+        © 1997 - {new Date().getFullYear()} ProSoft technologies inc.
       </div>
     </footer>
   );

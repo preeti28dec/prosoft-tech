@@ -39,21 +39,10 @@ function TextContent() {
         <div className="border-t border-stone-950 flex-[0.2_1]"></div>
       </div>
       <h1 className="text-3xl lg:text-4xl font-semibold text-gray-800 mb-6">
-        Customized <span className="text-green-500">Growth Solutions</span> For{" "}
-        <br />
-        Every Business Need From <br />
-        Startups, Medium Scale-Ups To <br />
-        Enterprises
+      Customized <span className="text-[#0f0987]">growth solutions </span>for businesses, from startups to enterprises.
       </h1>
       <p className="text-gray-700 leading-relaxed">
-        ProSoft Technologies is a versatile IT services provider that specialize in
-        offering cutting edge digital transformation as per your business
-        requirements. We offer tailored growth solutions to businesses of all
-        sizes, from startups to enterprises. By leveraging our expertise across
-        various technologies and industries, we can be your digital partners. CS
-        Soft Solutions delivers customized growth solutions that cater to the
-        unique needs of each business, ensuring success at every stage of
-        development.
+      ProSoft Technologies is a dynamic IT services provider, specializing in cutting-edge digital transformation tailored to your business needs. We offer customized growth solutions for businesses of all sizes, from startups to enterprises. With our expertise across diverse technologies and industries, we become your trusted digital partner. CS Soft Solutions delivers bespoke growth strategies, ensuring success at every development stage.
       </p>
     </div>
   );

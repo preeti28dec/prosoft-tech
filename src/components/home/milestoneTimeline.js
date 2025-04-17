@@ -120,7 +120,7 @@ const MilestoneTimeline = () => {
   const currentSection = timelineSections[currentSectionIndex];
 
   return (
-    <div className="bg-[#eaeff0] py-20">
+    <div className="bg-[#ececff] py-20">
       <div className="container mx-auto px-4">
         <div className=" mb-8">
           <div className="flex items-center mb-3">
@@ -132,7 +132,7 @@ const MilestoneTimeline = () => {
             <div className="border-t border-stone-950 flex-[0.1_1]"></div>
           </div>
           <div className="font-semibold text-4xl">
-            From <span className="text-green-500">Vision </span>To Global Impact
+            From <span className="text-[#0f0987]">Vision </span>To Global Impact
           </div>
         </div>
 

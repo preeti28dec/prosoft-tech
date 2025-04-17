@@ -8,7 +8,7 @@ const Careers = () => {
     <div>
       <StartCareers />
       <CurrentOpenings />
-      <JoinUsToWitness />
+      {/* <JoinUsToWitness /> */}
       <GrowWithUs />
     </div>
   );

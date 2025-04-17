@@ -11,14 +11,16 @@ const VisionMission = () => {
         <div className="flex items-center mb-3 justify-center ">
           <div className="border-t border-stone-950 flex-[0.1_1] mx-4"></div>
           <div className="">
-            <h6 className="pr-3 text-center font-semibold text-lg tracking-[0.3em]">FOCUS ON VISION, MISSION AND CORE VALUES</h6>
+            <h6 className="pr-3 text-center font-semibold text-lg tracking-[0.2em]">
+              Concentrate on Our Vision, Mission, and Core Principles
+            </h6>
           </div>
           <div className="border-t border-stone-950 flex-[0.1_1]"></div>
         </div>
 
         <div className="text-center mb-8 md:mb-12">
           <h2 className="text-3xl md:text-3xl lg:text-4xl font-semibold text-gray-800">
-            Pillars Of Growth
+            Keys to Growth
           </h2>
         </div>
 
@@ -27,34 +29,34 @@ const VisionMission = () => {
           {/* Vision Card */}
           <div className="bg-[#eef5f6] rounded-lg shadow-md p-6 md:p-8  border-b-4 border-[#48a1ad]">
             <div className="flex justify-center mb-4">
-              <img src={VisionImage} alt="vision-image"  className="w-32"/>
+              <img src={VisionImage} alt="vision-image" className="w-32" />
             </div>
             <h3 className="text-2xl font-bold text-gray-800 text-center mb-2">
-              Our Vision
+              Our Goal
             </h3>
             <div className=" text-center ">
-              We believe in establishing our presence through our work. We have
-              been into the global market for years and have been establishing
-              digital transformation for our clients. Our vision is to ensure
-              every customer of ours grows and achieves success in this dynamic
-              and volatile landscape.
+              We focus on building our presence through the quality of our work.
+              With years of experience in the global market, we have been
+              driving digital transformation for our clients. Our goal is to
+              empower every customer to grow and succeed in an ever-changing and
+              unpredictable landscape
             </div>
           </div>
 
           {/* Mission Card */}
           <div className="bg-[#fcf0f2] rounded-lg shadow-md p-6 md:p-8  border-b-4 border-[#e16b7c]">
             <div className="flex justify-center mb-4">
-              <img src={MissionImage} alt="mission-image"  className="w-32" />
+              <img src={MissionImage} alt="mission-image" className="w-32" />
             </div>
             <h3 className="text-2xl font-bold text-gray-800 text-center mb-2">
-              Our Mission
+              Our Objective
             </h3>
             <div className=" text-center ">
-              We believe in offering result-driven, scalable and tailored tech
-              solutions to bring desirable impact in your business. We have been
-              helping clients over the globe to grow and expand their business
-              operations, add efficiency in their existing operations and
-              achieve their business goals.
+              We are committed to providing scalable, results-oriented, and
+              customized tech solutions that deliver meaningful impact to your
+              business. For years, we have supported clients worldwide in
+              scaling their operations, enhancing efficiency, and achieving
+              their business objectives
             </div>
           </div>
         </div>

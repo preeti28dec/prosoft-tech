@@ -10,7 +10,7 @@ function Home() {
      <StartPage/>
      {/* <Slider/> */}
      <ServiceHome/>
-     <MilestoneTimeline/>
+     {/* <MilestoneTimeline/> */}
      <OurStorySection/>
     </div>
   );

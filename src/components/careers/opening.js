@@ -19,9 +19,7 @@ const CurrentOpenings = () => {
         </div>
       </div>
       <div className="w-4/6 mx-auto text-lg font-semibold text-center">
-        Be part of a dynamic, growth-driven workplace where innovation and
-        passion thrive. Explore our latest opportunities and take the next step
-        in your career with ProSoft Technologies!
+      Join a vibrant, forward-thinking workplace where passion fuels innovation. Discover new opportunities and elevate your career with ProSoft Technologies.
       </div>
     </div>
   );

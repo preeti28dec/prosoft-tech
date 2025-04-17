@@ -8,7 +8,7 @@ const About = () => {
     <div>
       <StartAbout/>
       <VisionMission/>
-      <CoreValues/>
+      {/* <CoreValues/> */}
       <WhyChooseUs/>
     </div>
   );

@@ -39,7 +39,7 @@ const CoreValues = () => {
   ];
 
   return (
-    <div className="bg-[#eaeff0] flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12 p-4 md:p-8">
+    <div className="bg-[#ececff] flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12 p-4 md:p-8">
       {/* Left Section - Image */}
       <div className="w-full md:w-1/2">
         <img
@@ -67,7 +67,7 @@ const CoreValues = () => {
             <div key={index} className="flex flex-col">
               <div className="flex items-center mb-3">
                 <div className="bg-white rounded-lg shadow-md p-2 border border-gray-100">
-                  <BsPatchCheck className="w-5 h-5 text-green-500" />
+                  <BsPatchCheck className="w-5 h-5 text-[#0f0987]" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-800 mx-2">
                   {value.title}
