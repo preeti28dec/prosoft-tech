@@ -24,19 +24,20 @@ const Footer = () => {
       links: [
         { text: "About Us", href: "/about" },
         { text: "Careers", href: "/careers" },
+        { text: "Privacy Policy", href: "/privacy" },
+
         // { text: "Blog", href: "/blog" },
         // { text: "Contact", href: "/contact" },
       ],
     },
-    {
-      title: "Legal & Compliance",
-      links: [
-        { text: "Privacy Policy", href: "/privacy" },
-        { text: "Terms & Conditions", href: "/terms" },
-        { text: "Cookie Policy", href: "/cookie" },
-        { text: "Disclaimer", href: "/disclaimer" },
-      ],
-    },
+    // {
+    //   title: "Legal & Compliance",
+    //   links: [
+    //     { text: "Terms & Conditions", href: "/terms" },
+    //     { text: "Cookie Policy", href: "/cookie" },
+    //     { text: "Disclaimer", href: "/disclaimer" },
+    //   ],
+    // },
   ];
 
   const offices = [

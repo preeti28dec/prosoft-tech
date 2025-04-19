@@ -123,7 +123,7 @@ const Header = () => {
             )}
           </div>
 
-          <Link
+          {/* <Link
             className={`${
               activeSection === "careers"
                 ? "text-[#0f0987] font-bold"
@@ -133,7 +133,7 @@ const Header = () => {
             onClick={() => handleNavClick("careers")}
           >
             Careers
-          </Link>
+          </Link> */}
         </nav>
 
         {/* Contact Button */}
@@ -205,7 +205,7 @@ const Header = () => {
             {isTechnologiesOpen && <Technologies />}
           </div>
 
-          <Link
+          {/* <Link
             className={`${
               activeSection === "careers"
                 ? "text-[#0f0987] font-bold"
@@ -215,7 +215,7 @@ const Header = () => {
             onClick={() => handleNavClick("careers")}
           >
             Careers
-          </Link>
+          </Link> */}
         </nav>
       </div>
 

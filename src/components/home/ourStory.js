@@ -43,7 +43,7 @@ function TextContent() {
       Customized <span className="text-[#0f0987]">growth solutions </span>for businesses, from startups to enterprises.
       </h1>
       <p className="text-gray-700 leading-relaxed">
-      ProSoft Technologies is a dynamic IT services provider, specializing in cutting-edge digital transformation tailored to your business needs. We offer customized growth solutions for businesses of all sizes, from startups to enterprises. With our expertise across diverse technologies and industries, we become your trusted digital partner. CS Soft Solutions delivers bespoke growth strategies, ensuring success at every development stage.
+      ProSoft Technologies is a dynamic IT services provider, specializing in cutting-edge digital transformation tailored to your business needs. We offer customized growth solutions for businesses of all sizes, from startups to enterprises. With our expertise across diverse technologies and industries, we become your trusted digital partner. ProSoft delivers bespoke growth strategies, ensuring success at every development stage.
       </p>
     </div>
   );
