@@ -64,7 +64,7 @@ const Technologies = () => {
               <li
                 key={idx}
                 className="flex items-center gap-2 py-1 cursor-pointer transition-colors hover:text-[#0f0987]"
-                onClick={() => alert(`${tech} clicked!`)}
+                // onClick={() => alert(`${tech} clicked!`)}
               >
                 <span className="text-xl">{icons[tech] || "📢"}</span>
                 {tech}

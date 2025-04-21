@@ -32,11 +32,11 @@ const ServiceCard = () => {
         ))}
       </div>
 
-      {selectedService && (
+      {/* {selectedService && (
         <div className="mt-6 p-4 bg-green-100 text-center text-lg font-semibold border border-green-400 rounded-lg">
           Selected Service: {selectedService}
         </div>
-      )}
+      )} */}
     </div>
   );
 };
